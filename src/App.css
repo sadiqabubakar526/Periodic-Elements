@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400&display=swap');
+
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Oswald', sans-serif; */
+body {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.content {
+  min-height: calc(100vh - 100px);
+}
+
+.element-img {
+  /* border-radius: 50% !important;
+  width: 75% !important; */
+  /* -webkit-clip-path: inset(8px 48px 10px 6px);
+  clip-path: inset(8px 48px 10px 6px); */
+  width: 184px;
+  clear: both;
+  overflow: hidden;
+  margin: auto;
+}
+
+.element-info {
+  font-size: 1.5rem;
+}
+
+.num-symbol>h3 {
+  display: inline;
+}
+
+.nav-wrapper {
+  padding: 0 1rem !important;
+}
+
+td {
+  font-size: 1.25rem;
+}
+
+th {
+  font-size: 1.25rem;
+}
+
+h3,
+th {}
+
+.activator:hover {
+  cursor: pointer;
+}
